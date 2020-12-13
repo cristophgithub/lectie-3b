@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+
+.cover {
+  background: url('assets/tulburare%20bipolara%205.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.date {
+  font-size: 1.001em;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+  width: 100%;
+    
+}
+#name1{
+    display: inline;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#name2 {
+    color: rgb(51, 133, 255);
+    display: inline;
+    font-family: 'Arial Black';
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#name3{
+    display: inline;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+/* ==== GENERAL STYLES ==== */
+
+body {
+  background-color: #eee;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* ==== BOOTSTRAP BUTTONS ==== */
+
+/* The base of every button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+
+/* Additional styles for "Primary" and "Secondary" */
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  position: relative;
+  top: -10.625em;
+  left: -35.625em;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74
+}
+      
+.btn-secondary {
+  background-color: #ff9900;
+  border-color: #e68a00;
+  position: relative;
+  top: -6.625em;
+  left: -43.475em;
+ 
+}
+
+.btn-secondary:hover {
+  background-color: #e68a00;
+  border-color: #cc7a00;
+    }
+
+@media screen and (max-width: 768px) {
+ .hero-text h1 {
+  font-size: 2.15rem;
+    }
+.tagline {
+  font-size: .900rem;
+    }
+.date {
+  font-size: .415rem;
+}
+
+
+
+
+
+
+
+
